@@ -1,7 +1,8 @@
-# using Pkg
-# Pkg.activate(".")
-import GPLinearODEMaker
-GLOM = GPLinearODEMaker
+using Pkg
+Pkg.activate("examples")
+Pkg.instantiate()
+
+import GPLinearODEMaker; GLOM = GPLinearODEMaker
 using SymEngine
 
 # process for se_kernel_base

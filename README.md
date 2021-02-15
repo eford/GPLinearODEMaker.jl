@@ -1,5 +1,8 @@
 GPLinearODEMaker.jl
 ========
+[![arXiv](https://img.shields.io/badge/arXiv-2009.01085-orange.svg)](https://arxiv.org/abs/2009.01085)
+[![DOI](https://zenodo.org/badge/256533350.svg)](https://zenodo.org/badge/latestdoi/256533350)
+
 
 GPLinearODEMaker (GLOM) is a package for finding the likelihood (and derivatives thereof) of multivariate Gaussian processes (GP) that are composed of a linear combination of a univariate GP and its derivatives.
 
@@ -60,9 +63,11 @@ using Optim
 
 For more details and options, see the documentation (WIP)
 
+You can read about the first usage of this package in [our paper](https://arxiv.org/abs/2009.01085)
+
 # Installation
 
-The package will be a registered package (by 4/24/2020), and can be installed with `Pkg.add`.
+GLOM is a registered package and can be installed with `Pkg.add`.
 
 ```julia
 julia> using Pkg; Pkg.add("GPLinearODEMaker")
@@ -77,4 +82,4 @@ or through the `pkg` REPL mode by typing
 
 If you use `GPLinearODEMaker.jl` in your work, please cite the BibTeX entry given in CITATION.bib
 
-The formula images in this README created with [this website](https://alexanderrodin.com/github-latex-markdown/)
+The formula images in this README created with [this website](https://tex-image-link-generator.herokuapp.com/)
